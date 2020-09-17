@@ -1,0 +1,35 @@
+GET http://localhost:7000/subscribers
+
+###
+
+GET http://localhost:7000/subscribers/5f622f8e9ab03a58b04fc6cf
+
+
+
+
+###
+
+POST http://localhost:7000/subscribers
+Content-Type: application/json
+
+
+{
+    "name":"Deepu",
+    "subscribedToChannel":"Github"
+
+}
+
+###
+
+DELETE http://localhost:7000/subscribers/5f622f8e9ab03a58b04fc6cf
+
+
+
+###
+PATCH  http://localhost:7000/subscribers/5f62290a0107f451b9ce653f
+Content-Type: application/json
+
+
+{
+    "name": "New Name"
+}
