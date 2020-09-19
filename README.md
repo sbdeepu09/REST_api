@@ -1,2 +1,2 @@
 # REST_api
-REST API with node js,Epress and Mongo DB.
+A simple REST API with node js,Epress and Mongo DB.
